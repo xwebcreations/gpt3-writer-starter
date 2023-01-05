@@ -10,7 +10,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix = `
-Write me a promo ad for this website and take content for the URL
+Write me a promo ad for this website domain and take content from the URL
 
 URL:
 `;

@@ -38,11 +38,10 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>AI Ad Generator</h1>
+            <h1>Domain Promo Generator</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Effortlessly create personalized, high-converting ads with the power of artificial intelligence</h2>
-         <h4>Simply enter your website URL below eg PostAdsDaily.com:</h4>
+            <h2>Effortlessly create an engaging promotional ad for your website with the power of artificial intelligence</h2>
           </div>
         </div>
         {/* Add this code here*/}
