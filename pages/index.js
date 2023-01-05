@@ -37,13 +37,7 @@ const Home = () => {
       
 
       <div className="container">
-        <div className="header">
-          <div className="header-title">
-            </div>
-          <div className="header-subtitle">
-             </div>
-        </div>
-
+   
 
         {/* Add this code here*/}
         <div className="prompt-container">
