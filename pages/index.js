@@ -38,10 +38,10 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Domain Promo Generator</h1>
+            <h1>Site Promo Generator</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Effortlessly create an engaging promotional ad for your website with the power of artificial intelligence</h2>
+            <h2>Effortlessly create an engaging promotional ad for your website with the power of artificial intelligence:</h2>
           </div>
         </div>
         {/* Add this code here*/}
@@ -81,18 +81,7 @@ const Home = () => {
 </div>
         </div>
       </div>
-      <div className="badge-container grow">
-        <a
-          href="https://buildspace.so/builds/ai-writer"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
-          </div>
-        </a>
-      </div>
+     
     </div>
   );
 };
