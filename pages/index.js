@@ -40,14 +40,14 @@ const Home = () => {
             <h1>Ad Generator</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Effortlessly create engaging marketing and promotional content with the power of artificial intelligence and our AdGenerator.app</h2>
+            <h2>Effortlessly create engaging promotional content with the power of artificial intelligence using our AdGenerator.app</h2>
           </div>
         </div>
         {/* Add this code here*/}
         <div className="prompt-container">
      <div className="prompt-container">
   <textarea
-    placeholder="Simply enter what you want your email to be about"
+    placeholder="Enter a description of the content you require"
     className="prompt-box"
     value={userInput}
     onChange={onUserChangedText}
