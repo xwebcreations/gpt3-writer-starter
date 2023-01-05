@@ -34,15 +34,17 @@ const Home = () => {
 
   return (
     <div className="root">
+      
+
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Ad Generator</h1>
-          </div>
+            </div>
           <div className="header-subtitle">
-            <h2>Effortlessly create engaging promotional content with the power of artificial intelligence using our AdGenerator.app</h2>
-          </div>
+             </div>
         </div>
+
+
         {/* Add this code here*/}
         <div className="prompt-container">
      <div className="prompt-container">
