@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import buildspaceLogo from '../assets/buildspace-logo.png';
 
 const Home = () => {
   const [userInput, setUserInput] = useState('');
@@ -38,17 +37,17 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Site Promo Generator</h1>
+            <h1>Email Marketing Generator</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Effortlessly create an engaging promotional ad for your website with the power of artificial intelligence:</h2>
+            <h2>Effortlessly create engaging emails with the power of artificial intelligence:</h2>
           </div>
         </div>
         {/* Add this code here*/}
         <div className="prompt-container">
      <div className="prompt-container">
   <textarea
-    placeholder="Simply enter a domain name eg AdGenerator.app"
+    placeholder="Simply enter what you want your email to be about"
     className="prompt-box"
     value={userInput}
     onChange={onUserChangedText}

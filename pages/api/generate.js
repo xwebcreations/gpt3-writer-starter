@@ -10,9 +10,9 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix = `
-Write me a promo ad for this website domain and take content from the URL
+Write me an engaging and informative email all about the Subject
 
-URL:
+Subject:
 `;
 
 const generateAction = async (req, res) => {
@@ -23,7 +23,7 @@ const generateAction = async (req, res) => {
     model: 'text-davinci-003',
     prompt: `${basePromptPrefix}${req.body.userInput}`,
     temperature: 0.7,
-    max_tokens: 150,
+    max_tokens: 250,
   });
   
   const basePromptOutput = baseCompletion.data.choices.pop();
