@@ -48,7 +48,7 @@ const Home = () => {
         <div className="prompt-container">
      <div className="prompt-container">
   <textarea
-    placeholder="start typing here"
+    placeholder="Simply enter a domain name eg AdGenerator.app"
     className="prompt-box"
     value={userInput}
     onChange={onUserChangedText}
