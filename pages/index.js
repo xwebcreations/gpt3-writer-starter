@@ -64,7 +64,7 @@ const Home = () => {
   <div className="output">
     <div className="output-header-container">
       <div className="output-header">
-        <h3>Your Ad:</h3>
+       <br></br> <h4>Results:</h4>
       </div>
     </div>
     <div className="output-content">
