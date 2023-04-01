@@ -43,7 +43,7 @@ const Home = () => {
         <div className="prompt-container">
      <div className="prompt-container">
   <textarea
-    placeholder="Enter a description of the content you require"
+    placeholder="Enter a clear description of the content you require"
     className="prompt-box"
     value={userInput}
     onChange={onUserChangedText}
