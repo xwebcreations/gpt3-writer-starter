@@ -23,7 +23,7 @@ const generateAction = async (req, res) => {
     model: 'gpt-4',
     prompt: `${basePromptPrefix}${req.body.userInput}`,
     temperature: 0.7,
-    max_tokens: 4096,
+    max_tokens: 2000,
   });
   
   const basePromptOutput = baseCompletion.data.choices.pop();
